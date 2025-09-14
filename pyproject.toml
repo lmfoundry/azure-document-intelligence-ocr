@@ -1,0 +1,12 @@
+[project]
+name = "az-intel"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "azure-core==1.35.1",
+    "azure-ai-documentintelligence==1.0.2",
+    "azure-search-documents==11.5.2",
+    "python-dotenv==1.1.1"
+]
